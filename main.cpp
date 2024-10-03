@@ -5,7 +5,7 @@
 //must import string, vector, and iostream from namespace.
 //using namespace std; would allow for dropping std:: in the code below
 #include "StringData.h"
-int binary_search(const std::vector<std::string>& container, std::string element) {
+int binary_search(const std::vector<std::string>& container,const std::string& element) {
     int low = 0;
     int high = container.size() - 1;  // Use .size() for vector size
 
@@ -26,7 +26,7 @@ int binary_search(const std::vector<std::string>& container, std::string element
     return -1;  // Element not found
 }
 
-int linear_search(const std::vector<std::string>& container, std::string element) {
+int linear_search(const std::vector<std::string>& container,const std::string& element) {
     for (size_t i = 0; i < container.size(); ++i) {  // Use .size() for vector size
         if (container[i] == element) {
             return i;  // Element found
