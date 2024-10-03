@@ -1,0 +1,4 @@
+# ninja log v6
+1	243	7496902453052521	build.ninja	e0f57fe98b244525
+17	811	7496902453902510	CMakeFiles/C_Time_Complexity.dir/main.cpp.obj	4e86bee78b5cc002
+813	895	7496902461854810	C_Time_Complexity.exe	4c7abc857de10332
