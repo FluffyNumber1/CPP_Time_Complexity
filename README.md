@@ -18,4 +18,4 @@ git clone https://github.com/FluffyNumber1/C_Time_Complexity.git
 Press run, and compare the results for a string that is in the beginning of the dataset, middle, and end. 
 
 ## Last Updated
-This README was last updated on [Date].
+This README was last updated on [10/3/2024].
